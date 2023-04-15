@@ -12,14 +12,16 @@ h1 {
   height: 900px;
   margin: 40px auto;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: space-between;
 }
 
 .box {
-  width: 100px;
-  height: 200px;
+  width: 200px;
+  height: 300px;
   font-size: 3rem;
   text-align: center;
 }
