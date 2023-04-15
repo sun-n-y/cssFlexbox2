@@ -14,14 +14,17 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: flex-end;
-  align-content: space-between;
+  /* flex-wrap: wrap; */
 }
 
 .box {
-  width: 200px;
-  height: 300px;
+  width: 100px;
+  height: 200px;
   font-size: 3rem;
   text-align: center;
+}
+
+.special {
+  align-self: center;
 }
