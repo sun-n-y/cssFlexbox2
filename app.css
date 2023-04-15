@@ -12,9 +12,10 @@ h1 {
   height: 900px;
   margin: 40px auto;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
