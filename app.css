@@ -1,32 +1,20 @@
 /* css flexbox:  */
 body {
   margin: 0;
-}
-
-.nav-bar {
-  background-color: #37474f;
-  height: 70px;
+  height: 100vh;
+  background: linear-gradient(to right, blue, green);
   display: flex;
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.left {
-  background-color: red;
+.circle {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
   display: flex;
-  justify-content: space-around;
-  width: 500px;
-}
-
-.right {
-  background-color: blue;
-  display: flex;
-  justify-content: flex-end;
-  width: 500px;
-}
-.nav-link {
-  color: white;
-  font-size: 2rem;
-  /* margin: 0 10px; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 4rem;
 }
