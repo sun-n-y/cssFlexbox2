@@ -1,6 +1,21 @@
 /* css flexbox:  */
-
-.navbar{
-  background-color: #37474f;
+body {
+  margin: 0;
 }
+
+.nav-bar {
+  background-color: #37474f;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav-link {
+  color: white;
+  font-size: 2rem;
+  margin: 0 30px;
+}
+
+.four {
+  margin-left: auto;
 }
