@@ -1,20 +1,29 @@
 /* css flexbox:  */
+
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(to right, blue, green);
+  background: linear-gradient(cyan, purple);
+}
+.container {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.circle {
-  background-color: yellow;
-  height: 200px;
-  width: 200px;
+.card {
+  background: white;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0 30px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  font-size: 4rem;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card footer {
+  background: slateblue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
 }
